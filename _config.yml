@@ -1,0 +1,13 @@
+title: My Portfolio
+email: abhijeet.rai101@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  My portfolio website showcasing my projects and blogs.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
+
+theme: jekyll-theme-cayman # replace with your chosen theme
+
+# Other possible settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
