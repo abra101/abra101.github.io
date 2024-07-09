@@ -5,9 +5,10 @@
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://abra101.github.io" # the base hostname & protocol for your site
 
-theme: jekyll-theme-cayman # replace with your chosen theme
+#theme: jekyll-theme-cayman # replace with your chosen theme
+remote_theme: pages-themes/cayman@v0.2.0
 
 # Other possible settings
 #markdown: kramdown
-#plugins:
-#  - jekyll-feed
+plugins:
+  - jekyll-remote-theme
